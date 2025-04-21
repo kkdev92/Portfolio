@@ -1,0 +1,31 @@
+site_name: kkdev docs
+site_description: ドキュメント置き場
+site_author: kkdev
+site_url: https://example.com
+
+repo_url: https://github.com/kkdev92/Portfolio
+repo_name: kkdev92/Portfolio
+
+copyright: Copyright &copy; 2025 kkdev
+
+theme:
+  feature:
+    tabs: true
+  language: ja
+  name: material
+  logo: img/logo.jpg
+
+markdown_extensions:
+  - admonition  # ヒント・注意・警告などのスタイル付きブロックを作成
+  - attr_list   # Markdown 要素にクラスやIDなどの属性を付与できる（例: {: .my-class }）
+  - codehilite  # コードブロックにシンタックスハイライトを適用
+  - footnotes   # 脚注を使えるようにする（[^1] など）
+  - pymdownx.keys       # キー入力風の表記（例: ⌘ Cmd + C）を使える
+  - pymdownx.magiclink  # URLや@ユーザー名、#issue番号を自動でリンクに変換
+  - pymdownx.mark       # テキストのハイライト（マーカー風の装飾）を追加
+  - pymdownx.superfences  # 高度なコードブロック記述ができる（他の拡張と併用しやすい）
+  - pymdownx.tilde      # ~~打ち消し線~~ や ~小文字~ の記法を追加
+  - pymdownx.tasklist: # タスクリスト（チェックリスト）を作成
+      custom_checkbox: true
+  - toc:
+      permalink: true   # 各見出しにパーマリンク（🔗）を表示し、リンク可能にする
