@@ -14,8 +14,7 @@ site/
 # ========================
 # TypeScript build output
 # ========================
-dist/
-*.js
+docs/assets/js/
 
 # ========================
 # Node modules (if used)
