@@ -21,7 +21,6 @@ dist/
 # Node modules (if used)
 # ========================
 node_modules/
-package-lock.json
 
 # ========================
 # VSCode and OS junk
