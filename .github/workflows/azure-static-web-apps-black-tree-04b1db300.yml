@@ -26,6 +26,10 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
           mkdocs build --clean
+      - name: Compile TypeScript
+        run: |
+          npm install -D typescript
+          npx tsc
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1

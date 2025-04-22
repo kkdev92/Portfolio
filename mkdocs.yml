@@ -15,6 +15,9 @@ theme:
   name: material
   logo: img/logo.jpg
 
+extra_javascript:
+  - assets/js/auth.js
+
 markdown_extensions:
   - admonition  # ヒント・注意・警告などのスタイル付きブロックを作成
   - attr_list   # Markdown 要素にクラスやIDなどの属性を付与できる（例: {: .my-class }）

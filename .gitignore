@@ -1,0 +1,31 @@
+# ========================
+# Python virtualenv
+# ========================
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# ========================
+# MkDocs build output
+# ========================
+site/
+
+# ========================
+# TypeScript build output
+# ========================
+dist/
+*.js
+
+# ========================
+# Node modules (if used)
+# ========================
+node_modules/
+package-lock.json
+
+# ========================
+# VSCode and OS junk
+# ========================
+.vscode/
+.DS_Store
+Thumbs.db
